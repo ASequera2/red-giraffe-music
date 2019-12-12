@@ -21,10 +21,8 @@ the fact that OurPlayer is the only class which instantiates or uses it.
 import java.io.File;
 import java.io.IOException;
 
-import java.util.ArrayList;
 
 import org.jfugue.pattern.Pattern;
-import org.jfugue.player.Player;
 import org.jfugue.player.ManagedPlayer;
 
 import javax.sound.midi.Sequence;

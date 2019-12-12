@@ -11,8 +11,6 @@ An interface for defining what macro elements of the song should be set
 For example, songs will have dynamics, tempo, key, introduction and conclusion rule sets
 Each of which is applied to the song in turn
 */
-import org.jfugue.pattern.Pattern;
-import java.util.ArrayList;
 
 interface SongRuleSet {
    void generateSong(Song s);

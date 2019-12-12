@@ -17,8 +17,6 @@
 * when the request from the UI is fulfilled. 
 */
 
-import java.util.ArrayList;
-import org.jfugue.pattern.Pattern;
 
 public class UIAlgorithmBridge {
    // Storage of the allowed notes for various keys, used by the pattern rule sets.

@@ -33,7 +33,6 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.layout.RowSpec;
 import com.jgoodies.forms.layout.FormSpecs;
-import com.jgoodies.*;
 import javax.swing.JLabel;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
@@ -41,16 +40,11 @@ import javax.swing.ButtonGroup;
 import java.io.File;
 
 import javax.swing.SwingConstants;
-import javax.swing.AbstractAction;
 
 import java.awt.Label;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import javax.swing.BoxLayout;
 import javax.swing.border.LineBorder;
 
 import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileSystemView; 
 
 import java.util.ArrayList;
 
@@ -62,9 +56,9 @@ public class MusicGeneratorDriver extends JFrame implements ActionListener {
    private JButton btnExit, btnSave, btnGenerate, btnPlay, btnPause;
    
    // Radio Buttons
-   private JRadioButton secA_Happy_Button, secA_Calm_Button, secA_Sad_Button, secA_Intense_Button, secA_Oriental_Button, secA_Spooky_Button;
-   private JRadioButton secB_Happy_Button, secB_Calm_Button, secB_Sad_Button, secB_Intense_Button, secB_Oriental_Button, secB_Spooky_Button;
-   private JRadioButton secC_Happy_Button, secC_Calm_Button, secC_Sad_Button, secC_Intense_Button, secC_Oriental_Button, secC_Spooky_Button;
+   private JRadioButton secA_Happy_Button, secA_Calm_Button, secA_Sad_Button, secA_Intense_Button;
+   private JRadioButton secB_Happy_Button, secB_Calm_Button, secB_Sad_Button, secB_Intense_Button;
+   private JRadioButton secC_Happy_Button, secC_Calm_Button, secC_Sad_Button, secC_Intense_Button;
    
    private JRadioButton secA_Piano_Button, secA_Brass_Button, secA_Synth_Button, secA_Guitar_Button, secA_Strings_Button;
    private JRadioButton secB_Piano_Button, secB_Brass_Button, secB_Synth_Button, secB_Guitar_Button, secB_Strings_Button;
@@ -636,14 +630,14 @@ public class MusicGeneratorDriver extends JFrame implements ActionListener {
       medi.acceptRequest(thisRequest);
    }
    
-   private class SwingAction extends AbstractAction {
+   /*private class SwingAction extends AbstractAction {
       public SwingAction() {
          putValue(NAME, "SwingAction");
          putValue(SHORT_DESCRIPTION, "Some short description");
       }
       public void actionPerformed(ActionEvent e) {
       }
-   }
+   }*/
    
    public UIRequest createGenerateRequest(int ReqType) {
       // For parameter ReqType: 

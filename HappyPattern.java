@@ -15,7 +15,6 @@ and how the pieces are fit together, in what patterns.
 
 */
 
-import org.jfugue.pattern.Pattern;
 import java.util.ArrayList;
 import java.util.Collections;
 

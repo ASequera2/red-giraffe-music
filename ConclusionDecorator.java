@@ -13,7 +13,7 @@ has been modified by going through a pattern rule set.
 
 */
 
-public class ConclusionDecorator implements SongRuleSet {
+/*public class ConclusionDecorator implements SongRuleSet {
 	String key;
 	
 	public ConclusionDecorator(String k) { key = k; };
@@ -31,4 +31,4 @@ public class ConclusionDecorator implements SongRuleSet {
 			lastMeasure = "Aminw+Eq_Gq_Aq_Cq";
 		return new Song(jfugueSong+lastMeasure);
 	}
-}
+}*/

@@ -15,7 +15,6 @@ It is composed of multiple voices.
 
 */
 import java.util.ArrayList;
-import org.jfugue.pattern.Pattern;
 
 public class Song {
    int tempo;
